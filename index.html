@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/online-resume.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">SHEKHAR</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>Explore my projects and get to know me better.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="images/twitter.png" class="card-img-top project-img" alt="Project 1">
+                        <div class="card-body project-description">
+                            <h5 class="card-title">Twitter-Clone</h5>
+                            <p class="card-text">Twitter-inspired social networking platform where users can share short
+                                posts, follow others, and engage through likes and comments. Key features include user
+                                authentication, customizable profiles, tweet creation, personalized feeds, search
+                                functionality, and real-time notifications. The platform aims to provide an interactive
+                                and user-friendly environment for microblogging.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="images/blinkit.png" class="card-img-top project-img" alt="Project 2">
+                        <div class="card-body project-description">
+                            <h5 class="card-title">Blinkit Clone</h5>
+                            <p class="card-text">Blinkit Clone is an e-commerce platform where users can browse a wide
+                                range of products, log in, and log out. Only admins can upload product images, while
+                                users can add items to their cart. Key features include user authentication, a
+                                searchable product catalog, and an intuitive interface, ensuring a convenient and
+                                efficient shopping experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="images/todo.png" class="card-img-top project-img" alt="Project 3">
+                        <div class="card-body project-description">
+                            <h5 class="card-title">To Do List</h5>
+                            <p class="card-text">The To-Do List Application is a simple and intuitive tool for managing
+                                daily tasks. Users can add, view, edit, and delete tasks, ensuring they stay organized
+                                and productive.The application leverages ReactJS for a responsive user interface and
+                                Redux for efficient state management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="text-center">About Me</h2>
+            <p>Adaptable and quick learner who thrives in pressure; building strong web applications is my passion.
+                Expert full-stack developer with an ambition to acquire new skills and succeed. Familiarized with HTML5,
+                CSS, Bootstrap, JavaScript, and React.js. Skilled in resolving challenges and developing efficient
+                solutions. Committed to providing an incredible user experience through well-designed responsiveness.
+                <br>
+                <br>
+                Highlights:
+                <br>
+                - Full-stack developer, passionate about web applications
+                <br>
+                - Responsive and quick learner, excels under pressure
+                <br>
+                - Aspiring developer with a drive for learning and success
+                <br>
+                - In-depth knowledge of HTML5, CSS, Bootstrap, JavaScript, and React.js
+                <br>
+                - Strong problem-solving skills; ability to develop efficient solutions
+                <br>
+                - Dedicated to providing exceptional user experiences through responsive web design
+            </p>
+        </section>
+
+        <section id="contact" class="container">
+            <h2 class="text-center" style="color: #d1c7ff;">Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <p>&copy; 2024 SHEKHAR. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

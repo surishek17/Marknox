@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf7ff; /* Soft Lilac */
+    color: #333333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6a5acd; /* Deep Periwinkle */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #b3a3f3 !important; /* Lighter Periwinkle */
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background-color: #e6e0ff; /* Soft Lilac */
+    padding: 100px 0;
+}
+
+#projects {
+    background-color: #d1c7ff; /* Light Periwinkle */
+}
+
+#about {
+    background-color: #e6e0ff; /* Soft Lilac */
+}
+
+#contact {
+    background-color: #6a5acd; /* Deep Periwinkle */
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #6a5acd; /* Deep Periwinkle */
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+/* Typography */
+h1, h2 {
+    margin-bottom: 30px;
+    color: #6a5acd; /* Deep Periwinkle */
+}
+
+/* Projects */
+.project-card {
+    margin-bottom: 30px;
+    border: none;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+}
+
+.project-description {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+/* Animations */
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form */
+.form-control {
+    border: 1px solid #6a5acd; /* Deep Periwinkle */
+}
+
+.btn-primary {
+    background-color: #6a5acd; /* Deep Periwinkle */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4b4c96; /* Darker Periwinkle */
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-link {
+        margin-right: 0;
+    }
+}
